@@ -1,74 +1,28 @@
-# Odin Template
+# Testing Practice Project
 
-A modern JavaScript project template for [The Odin Project](https://www.theodinproject.com/) curriculum.
+This project demonstrates Test-Driven Development practices in JavaScript, using Jest as the testing framework.
 
-## Features
+## Project Overview
 
-- **Webpack** - with separate dev/prod configurations
-- **Asset Management** - Image and font loading configured for Webpack
-- **ESLint** - with flat config
-- **Prettier** - with pre-commit hooks (Husky & lint-staged)
-- **Jest** - with Babel support
-- **CSS Reset**
+This repository contains five tested JavaScript modules:
 
-## Getting Started
+1. **capitalize** - String manipulation with first character capitalization
+2. **reverseString** - String reversal functionality
+3. **calculator** - Basic arithmetic operations object
+4. **caesarCipher** - Classic encryption algorithm implementation
+5. **analyzeArray** - Statistical analysis of numerical arrays
 
-1. Click "Use this template" on GitHub or clone the repository
-2. Update project metadata:
-   - Change `name` and `description` in `package.json`
-   - Update `<title>` in `src/template.html`
-   - Update repository URL in `package.json`
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start development server:
-   ```bash
-   npm start
-   ```
+## Learning Outcomes
 
-## Project Structure
+Through completing this project, I have:
 
-```
-├── src/
-│   ├── styles/
-│   │   ├── reset.css      # CSS reset for consistency
-│   │   └── styles.css     # Your styles here
-│   ├── index.js           # Application entry point
-│   └── template.html      # HTML template
-├── tests/                 # Jest test files
-├── dist/                  # Built files (git-ignored)
-├── webpack.common.js      # Shared webpack config
-├── webpack.dev.js         # Development config
-├── webpack.prod.js        # Production config
-└── eslint.config.mjs      # ESLint flat config
-```
+- Gained hands-on experience with the Jest framework
+- Learned to think critically about edge cases and potential failure points
+- Developed the ability to write self-documenting, testable code in JavaScript
 
-## Available Scripts
+## Technologies Used
 
-- `npm start` - Start development server with live reload
-- `npm run build` - Build for production to `dist/` folder
-- `npm test` - Run Jest tests
-- `npm run deploy` - Build and deploy to GitHub Pages (requires gh-pages package)
-
-## GitHub Pages Deployment
-
-### First Deployment
-
-When you're ready to deploy your project:
-
-1. Push your repository to GitHub if you haven't already
-2. Run `npm run deploy` - this creates the gh-pages branch and deploys
-3. Go to Settings → Pages in your GitHub repo
-4. Set source to "Deploy from a branch" and select "gh-pages"
-5. Your site will be live at `https://[username].github.io/[repo-name]/`
-
-### Updating Your Site
-
-After initial setup, deploy updates anytime with:
-
-```bash
-npm run deploy
-```
-
-This automatically builds and deploys your project. The predeploy script runs `npm run build` before deploying.
+- **JavaScript (ES6+)**
+- **Jest**
+- **Babel**: ES6 module transpilation for Jest compatibility
+- **npm**
