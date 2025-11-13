@@ -1,4 +1,4 @@
-# Testing Practice Project
+# Testing Practice
 
 This project demonstrates Test-Driven Development practices in JavaScript, using Jest as the testing framework.
 
